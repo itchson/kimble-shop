@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: '#1b1734', color: 'white', textAlign: 'center' }}>
       <Image
-        src="/logo.png" // Replace with the path to your logo image
+        src="http://kimble.shop.s3-website-ap-southeast-2.amazonaws.com/logo.png" 
         alt="KIMBLE.SHOP Logo"
-        width={200} // Adjust as needed
-        height={200} // Adjust as needed
+        width={200}
+        height={200} 
         priority
       />
       <h1 style={{ marginTop: '20px' }}>KIMBLE.SHOP</h1>
