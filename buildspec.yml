@@ -5,16 +5,13 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - echo Installing source code dependencies...
+      - echo Installing source NPM dependencies...
       - npm install
   build:
     commands:
       - echo Build started on `date`
       - npm run build
-      - npm install -g serve
-      - npx next export
-
 artifacts:
   files:
     - '**/*'
-  base-directory: '.next'
+  base-directory: '.next' 
