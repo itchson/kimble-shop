@@ -31,7 +31,7 @@ const IndexPage = () => {
   };
 
   const linkStyle = {
-    color: isLogoHovered || isLink1Hovered || isLink2Hovered ? 'white' : 'orange',
+    color: isLogoHovered || isLink1Hovered || isLink2Hovered ? 'yellow' : 'orange',
     textDecoration: 'none',
     transition: 'color 0.3s ease',
   };
