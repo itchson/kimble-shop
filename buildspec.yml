@@ -9,5 +9,4 @@ phases:
       - npm ci
   build:
     commands:
-      - npm run build
-      - aws s3 sync .next/ s3://kimble-shop --delete
+      - npm run build && next export
