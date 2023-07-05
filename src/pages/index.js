@@ -39,11 +39,14 @@ const IndexPage = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div className="background-preview">
       <Head>
         <title>KIMBLE.SHOP - Antiques and Collectables</title>
         <meta name="description" content="Welcome to KIMBLE.SHOP, a family-owned eBay store based in Brisbane, Australia, specializing in antiques and collectables. We offer a diverse range of authentic collectables, including sports and Pokémon trading cards, vintage toys, rare coins & notes, board games, art pieces, and jewelry. Secure shipping, accurate descriptions, and top-notch customer service. Start your collecting journey with KIMBLE.SHOP today." />
       </Head>
+      <div className="background-embed">
+        <iframe src="https://www.ebay.com.au/usr/kimble.shop" title="Kimble.shop Embed" className="background-iframe"></iframe>
+      </div>
       <div style={{ textAlign: 'center' }}>
         <a href="https://www.ebay.com.au/usr/kimble.shop">
           <img
