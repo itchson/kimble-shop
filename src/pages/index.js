@@ -31,7 +31,7 @@ const IndexPage = () => {
   };
 
   const linkStyle = {
-    color: isLogoHovered || isLink1Hovered || isLink2Hovered ? 'orange' : 'white',
+    color: isLogoHovered || isLink1Hovered || isLink2Hovered ? 'white' : 'orange',
     textDecoration: 'none',
     transition: 'color 0.3s ease',
   };
@@ -65,7 +65,8 @@ const IndexPage = () => {
             KIMBLE.SHOP
           </a>
         </h1>
-        <p style={{ color: '#9ce1ff', maxWidth: '600px', margin: '20px auto' }}>
+        <h2>Antiques and Collectables</h2>
+        <p style={{ color: 'white', maxWidth: '600px', margin: '20px auto', padding: '5px', textAlign: 'left' }}>
           Welcome to{' '}
           <a href="https://www.ebay.com.au/usr/kimble.shop" style={{ ...linkStyle }} onMouseEnter={handleLink2MouseEnter} onMouseLeave={handleLink2MouseLeave}>
             KIMBLE.SHOP
