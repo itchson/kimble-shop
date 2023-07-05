@@ -3,13 +3,10 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      nodejs: 19.7.0
+  pre_build:
     commands:
       - npm ci
   build:
     commands:
       - npm run build
-artifacts:
-  files:
-    - '**/*'
-  base-directory: 'out'
