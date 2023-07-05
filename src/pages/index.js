@@ -48,7 +48,7 @@ const IndexPage = () => {
           </a>
         </h1>
         <h2>Antiques and Collectables</h2>
-        <p style={{ color: 'white', maxWidth: '600px', margin: '20px auto', padding: '5px', textAlign: 'left' }}>
+        <p style={{ color: 'white', width: '600px', margin: '20px auto', padding: '5px', textAlign: 'left' }}>
           Welcome to{' '}
           <a href="https://www.ebay.com.au/usr/kimble.shop" style={{ ...linkStyle }} onMouseEnter={handleLogoMouseEnter} onMouseLeave={handleLogoMouseLeave}>
             KIMBLE.SHOP
