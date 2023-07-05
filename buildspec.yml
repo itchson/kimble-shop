@@ -4,11 +4,9 @@ phases:
   install:
     runtime-versions:
       nodejs: 18
-  pre_build:
-    commands:
-      - npm ci
   build:
     commands:
+      - npm ci
       - npm run build
       - npm run export
 artifacts:
