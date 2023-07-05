@@ -9,7 +9,9 @@ phases:
       - npm ci
   build:
     commands:
-      - npm run build && next export
-  artifacts:
-    files:
-      - '**/*'
+      - npm run build
+      - npm run export
+artifacts:
+  files:
+    - '**/*'
+  base-directory: out
