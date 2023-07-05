@@ -11,6 +11,6 @@ phases:
     commands:
       - npm run build && next export
   artifacts:
-  files:
-    - '**/*'
-  base-directory: out
+    files:
+      - '**/*'
+    discard-paths: yes
