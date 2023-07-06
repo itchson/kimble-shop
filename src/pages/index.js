@@ -49,7 +49,7 @@ const IndexPage = () => {
           </a>
           , a family-owned eBay store based in Brisbane, Australia, specializing in antiques and collectables. We provide a
           diverse range of collectables, including sports and Pokémon trading cards, vintage toys, rare coins & notes, board games, art pieces, and jewelry. Every item in our collection is authentic, thoroughly quality-checked, and a unique piece of history ready to be added to your collection. We ensure secure and swift shipping, accurate item descriptions, and prioritize top-notch customer service. Feedback from our valued customers fuels our continuous improvement. Embark on your unique collecting journey with{' '}
-          <a href="https://www.ebay.com.au/usr/kimble.shop" style={linkStyle}>
+          <a href="https://www.ebay.com.au/usr/kimble.shop" style={{ ...linkStyle }} onMouseEnter={handleLogoMouseEnter} onMouseLeave={handleLogoMouseLeave}>
             KIMBLE.SHOP
           </a>{' '}
           today.

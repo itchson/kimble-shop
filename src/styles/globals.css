@@ -42,6 +42,13 @@ img {
     text-align: center;
   }
 
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    transition: transform 1s ease;
+  }
+
   .logo.hovered {
     transform: rotate(360deg);
   }
@@ -53,16 +60,16 @@ img {
     margin-top: 50px;
   }
 
+  .logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: transform 1s ease;
+  }
+
   .logo.hovered {
     transform: rotate(360deg);
   }
-}
-
-.logo {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  transition: transform 1s ease;
 }
 
 h1 {
